@@ -106,3 +106,11 @@ table.introduction {
 	color: #f7961c;
 	text-decoration: underline;
 }
+
+span.hover {
+    display: none;
+}
+
+a:hover + span.hover {
+    display:inline;
+}

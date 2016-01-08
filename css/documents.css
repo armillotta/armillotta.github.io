@@ -6,7 +6,8 @@ body {
 	text-align: center;
 	line-height: 1.2em;
 	padding: 0;
-}			
+}
+
 h1 {
 	font: normal 44px 'HoeflerText-Regular', 'Hoefler Text', Georgia, "Times New Roman", Times, serif;
 	color: #25416e;
@@ -46,4 +47,12 @@ td {
 }
 td.top {
 	padding-top: 10px;
+}
+
+span.hover {
+    display: none;
+}
+
+a:hover + span.hover {
+    display:inline;
 }
