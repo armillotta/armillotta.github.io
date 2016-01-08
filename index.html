@@ -10,10 +10,24 @@
         <link href="mailto:monica.armillotta@gmail.com" rev="made" />
         <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <script type="text/javascript" src="scripts/external.js"></script>
-	<script type="text/javascript" src="scripts/ga.js"></script>
+        <script type="text/javascript" src="scripts/ga.js"></script>
+        <script type="text/javascript" src="scripts/jquery-1.2.3.min.js"></script>
+        <script type="text/javascript">
+          $(window).load(function() {
+            setTimeout(function() {
+              $('#eagle').fadeOut(3000);
+            }, 5000);
+
+            $('#eagle_text').fadeIn(3000);
+          });
+        </script>
     </head>
 
     <body onload="externalLinks();">
+        <div id="eagle">
+          <h1 id="eagle_text">The Legal Eagle</h1>
+          <img id="eagle_image" src="images/eagle-03.jpg" />
+        </div>
         <div class="block" xml:lang="it">
             <a href="cv_it.html"><img class="flag" src="images/flag-italian-bg.jpg" alt="Italiano" height="26" width="30" /></a>
             <h1>Benvenuti sul mio sito web</h1>
