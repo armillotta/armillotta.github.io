@@ -1,0 +1,49 @@
+body {
+	color: #25416e;
+	font: normal 15px Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+	background: url(../images/bg.jpg) white repeat fixed;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.2em;
+	padding: 0;
+}			
+h1 {
+	font: normal 44px 'HoeflerText-Regular', 'Hoefler Text', Georgia, "Times New Roman", Times, serif;
+	color: #25416e;
+	letter-spacing: 0.1px;
+	margin-top: 15px;
+}
+div.block {
+	margin: 35px auto;
+	width: 700px;
+}
+li, ul {
+	list-style: disc;
+	color: #f7961c;
+	margin: 4px 0 4px auto;
+	padding: 2px 0 0 auto;
+}
+a:link, a:active, a:visited
+{
+	color: #25416e;
+	text-decoration: underline;
+}
+a:hover
+{
+	color: #f7961c;
+	text-decoration: underline;
+}
+img {
+	border: none;
+}
+th {
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid #25416e;
+}
+td {
+	text-align: left;
+}
+td.top {
+	padding-top: 10px;
+}

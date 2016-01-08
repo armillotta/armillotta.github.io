@@ -1,0 +1,53 @@
+body {
+	color: #25416e;
+	font: normal 14px Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+	background: url(../images/bg.jpg) white repeat fixed;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.2em;
+	padding: 0;
+}			
+h1 {
+	font: normal 24px 'HoeflerText-Regular', 'Hoefler Text', Georgia, "Times New Roman", Times, serif;
+	color: #25416e;
+	letter-spacing: 0.1px;
+	margin-top: 15px;
+}
+div.block {
+	margin: 35px auto;
+	width: 66%;
+	min-width: 560px;
+	max-width: 1000px;
+	border-left: 1px solid #222244;
+	border-top: 1px solid #222244;
+	padding: 6px 15px 6px 15px;
+}
+div.block a:link, div.block a:active, div.block a:visited
+{
+	color: #25416e;
+	text-decoration: underline;
+}
+div.block a:hover
+{
+	color: #f7961c;
+	text-decoration: underline;
+}
+img {
+	border-style: none;
+}
+img.flag {
+	float: left;
+	position: relative;
+	top: -13px;
+	left: -24px;
+	border-right: 1px solid #222244;
+	border-bottom: 1px solid #222244;
+
+}
+p {
+	padding-bottom: 5px;
+}
+a:link, a:active, a:visited
+{
+	text-decoration: none;
+}
